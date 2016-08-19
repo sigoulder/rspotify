@@ -18,6 +18,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'omniauth-oauth2', '~> 1.3.1'
   spec.add_dependency 'rest-client', '~> 1.8'
+  spec.add_dependency 'rack', '~> 1.6.4'
 
   spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'fakeweb', '~> 1.3'
