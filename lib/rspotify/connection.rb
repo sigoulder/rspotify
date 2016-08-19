@@ -27,7 +27,7 @@ module RSpotify
       request_body = { grant_type: 'client_credentials' }
       response = RestClient.post(TOKEN_URI, request_body, auth_header)
       @client_token = JSON.parse(response)['access_token']
-      true
+      @client_token
     end
 
     VERBS.each do |verb|
